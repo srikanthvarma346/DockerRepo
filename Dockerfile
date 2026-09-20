@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:alpine
 MAINTAINER srikanth
 EXPOSE 80
 LABEL this is for creating Hands-on Task for Docker
