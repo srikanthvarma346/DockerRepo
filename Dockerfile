@@ -1,5 +1,7 @@
-FROM nginx:alpine
-MAINTAINER srikanth
+FROM nginx
 EXPOSE 80
-LABEL this is for creating Hands-on Task for Docker
-copy index.html /user/share/nginx/html
+LABEL maintainer="srikanth"
+LABEL description="Hands-on Task for Docker"
+COPY index.html /usr/share/nginx/html/index.html
+
+
